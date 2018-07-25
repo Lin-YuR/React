@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
+import TodoList from './reactmeow/TodoList';
 
 ReactDOM.render(
-  <App />,document.getElementById('root')
+  <TodoList />,document.getElementById('root')
 )
