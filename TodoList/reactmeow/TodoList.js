@@ -1,9 +1,12 @@
 import React from 'react'
 
 class TodoList extends React.Component{
-    state = {
-        items:[],
-        inputValue:'',
+    constructor(props){
+        super(props)
+        this.state = {
+            items:[],
+            inputValue:'',
+        }
     }
     handleChange = (e) =>{
         this.setState({inputValue: e.target.value})
